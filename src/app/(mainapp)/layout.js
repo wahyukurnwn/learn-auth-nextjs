@@ -26,7 +26,7 @@ export default async function Layout({ children }) {
 
   return (
     <main className=" space-y-4 p-12">
-      <header className="flex p-4 rounded-lg bg-slate-100">
+      <header className="flex p-4 rounded-lg bg-slate-100 justify-between">
         <div>devsclae.</div>
         <div>{session.user.name}</div>
       </header>
